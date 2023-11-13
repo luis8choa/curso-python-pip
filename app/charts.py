@@ -15,7 +15,7 @@ def generate_pie_chart(name,labels,values):
   ax.pie(values, labels=labels) #en pie chart, primero se mandan los valores como argumento y luego el otro argumento es indicar cuales son los labels, en este caso "labels"
   ax.axis("equal") # centrado (.axis()) y en forma de circulo "equal"
   #plt.show() #queda corriendo en terminal, para salir usar ctrl + c
-  plt.savefig(f'./imgs/{name}_pie.png')
+  #plt.savefig(f'./imgs/{name}_pie.png')
   plt.close()
 
 
